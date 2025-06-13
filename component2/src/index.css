@@ -1,0 +1,58 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  height: 80px;
+  background-color: #212121;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > ul{
+  display: flex;
+  gap:20px;
+  list-style:none;
+}
+
+nav >ul>li{
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: color 0.4s ease-in;
+
+  &:hover{
+    color:orangered;
+  }
+}
+
+
+.homeContainer{
+  height: 250px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+}
+
+.homeCards{
+  height: calc(100vh - 330px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card{
+
+  height: 200px;
+  width: 350px;
+  border:2px solid ;
+}
