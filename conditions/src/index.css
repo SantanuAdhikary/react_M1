@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  height: 80px;
+  /* background-color: black; */
+  background-image: linear-gradient(to left,black,white);
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > ul{
+  display: flex;
+  list-style: none;
+  gap:15px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+nav > h1{
+  color:orangered;
+  letter-spacing: 1.2px;
+}
+
+nav > button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color:orange;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+}
+
+.loginMain{
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, red,yellow);
+}
+.signupMain{
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, yellow,red);
+}
+
+.loginMain > h1, .signupMain > h1{
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color:white;
+  font-size: 50px;
+  text-shadow: 0px 2px 3px black;
+}
+
+
