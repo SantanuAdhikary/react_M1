@@ -1,0 +1,156 @@
+
+.signup{
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    /* background-color: #FFFCFB; */
+}
+
+.signup > .left{
+    flex-basis: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-image: url("https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg?semt=ais_hybrid&w=740");
+    background-size: contain; */
+}
+
+.left > img{
+    height: 80%
+}
+.signup > .right{
+    flex-basis: 50%;
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    /* background-color: rgb(54, 54, 233); */
+    background-color: #687FE5;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.right > .inner{
+    width: 400px;
+    background-color: white;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+    border-radius: 20px;
+}
+
+.right > h1{
+    color:white;
+    font-size: 45px;
+    word-spacing: 10px;
+}
+
+.inner > form > input{
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.inner > form > label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form > button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #555;
+    color:white;
+}
+
+
+form > button:hover{
+    background-color: #666;
+}
+
+input::placeholder{
+    font-size: 17px;
+}
+
+
+
+
+
+footer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer > a{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(94, 94, 255);
+    font-weight: bold;
+}
+
+
+
+/* ! responsive */
+
+
+@media (max-width: 850px) {
+  .signup {
+    flex-direction: column;
+  }
+
+  .signup > .left,
+  .signup > .right {
+    flex-basis: 100%;
+    width: 100%;
+    background-color: white;
+  }
+
+  .right > h1{
+    color:black
+  }
+
+  .left > img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .right > .inner {
+    width: 90%;
+    padding: 20px;
+    box-shadow: none;
+   
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  footer > p,
+  footer > a {
+    font-size: 16px;
+    text-align: center;
+  }
+}
