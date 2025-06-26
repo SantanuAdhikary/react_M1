@@ -1,0 +1,86 @@
+
+
+.login{
+    height: 100vh;
+    display: flex;
+}
+
+ .left{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 50px;
+
+}
+
+ .right{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.right > .inner{
+    width: 380px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 18px;
+}
+
+.inner > form > label{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+}
+
+.inner > form > input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.inner > form > button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #666;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+form > .footer{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+form > .footer > p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form > .footer > a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.left > .leftInner > h1{
+ font-size: 50px;
+ margin-bottom: 15px;   
+}
+.left > .leftInner > p{
+ font-size: 24px;
+ margin-bottom: 15px;   
+}

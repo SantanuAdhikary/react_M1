@@ -1,0 +1,48 @@
+.dashboard{
+    display: flex;
+    height: 100vh;
+}
+
+.dashboardLeft{
+    flex-basis: 25%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.dashboardRight{
+    flex-basis: 75%;
+    background-color: beige;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+    padding: 20px;
+    gap:20px;
+}
+
+
+.profile{
+
+    flex-basis: 50%;
+    background-color: white;
+}
+
+.profileCard{
+    height: 200px;
+    width: 300px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+
+img{
+    height: 100px;
+}
