@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.outer{
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+}
+
+.outer > h1{
+  text-transform: capitalize;
+  letter-spacing: 1.4px;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.7);
+}
+
+.search{
+  width: 300px;
+  display: flex;
+}
+
+.search > input{
+  flex-basis: 65%;
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.search > button{
+  flex-basis: 35%;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #ccc;
+    color:white;
+  }
+}
+
+.box{
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.list{
+  display: flex;
+ 
+  justify-content: space-between;
+  margin-bottom: 10px;
+  /* background-color: red; */
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.box > .list.list:nth-child(2n){
+  background-color: pink;
+}
+
+.box > .list.list:nth-child(2n+1){
+  background-color: #ccc;
+}
+
+
+
+
+.list > button{
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(197, 28, 28);
+  color:white;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover{
+    background-color: rgb(213, 30, 30);;
+  }
+}
