@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": "be35",
+      "userName": "san",
+      "userPass": "san123",
+      "userEmail": "san@gmail.com"
+    },
+    {
+      "id": "ffdf",
+      "userName": "virat",
+      "userPass": "virat123",
+      "userEmail": "virat@gmail.com"
+    },
+    {
+      "id": "9133",
+      "userName": "rohit",
+      "userPass": "rohit123",
+      "userEmail": "rohit@gmail.com"
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,29 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dark{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  height: 100vh;
+  background-color: #212121;
+  color:white;
+}
+
+.light{
+  height: 100vh;
+  background-color: #fefefe;
+  color:black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}

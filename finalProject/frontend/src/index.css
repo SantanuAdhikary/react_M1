@@ -1,0 +1,103 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.signup{
+  height: 100vh;
+  background-color: rgb(165, 158, 150);
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup  > h1 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.signup > .inner{
+  width: 400px; 
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px 25px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.7);
+}
+
+ form > input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+form > label{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+form > button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ccc;
+  border:none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease-in;
+
+  &:hover{
+    background-color: #444;
+    color:white;
+  }
+}
+
+.inner > footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.inner > footer > p{
+  font-size: 18px;
+}
+
+.inner > footer > a{
+  text-decoration: none;
+  font-size: 18px;
+  color:blue;
+}
+
+
+
+/*  !  Login page style  */
+
+.login{
+  height: 100vh;
+  background-color: rgb(55, 55, 92);
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login > .inner{
+  width: 400px; 
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px 25px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.7);
+}
+.login > h1{
+  color:white;
+}
