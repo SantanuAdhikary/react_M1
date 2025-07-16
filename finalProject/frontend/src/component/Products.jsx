@@ -30,7 +30,7 @@ const Products = () => {
                   <div className='card' key={ele.id}>
                       <img src={ele.image} alt="" />
                       <h2> Title : {ele.title.slice(0,12)}</h2>
-                       <h3> Price : {ele.price} </h3>
+                       <h3> Price : {ele.price} $</h3>
 
                        <button> <Link to={ `${ele.id}`}>More Info</Link> </button>
 
